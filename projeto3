@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto 3 | Carlos Peixoto</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="project-page">
+  <header>
+    <nav>
+      <h1>Carlos Peixoto</h1>
+      <span class="status">E-commerce</span>
+      <div class="nav-right">
+        <ul>
+          <li><a href="index.html#about">Sobre</a></li>
+          <li><a href="index.html#projects">Projetos</a></li>
+          <li><a href="index.html#contact">Contato</a></li>
+        </ul>
+        <button id="themeToggle" aria-label="Alternar tema">🌙</button>
+      </div>
+    </nav>
+  </header>
 
+  <main>
+    <section class="project-hero">
+      <div class="project-hero-content">
+        <div class="project-copy">
+          <span class="tag">E-commerce</span>
+          <h1>Loja online mobile first com foco em produto, confianca e compra simplificada.</h1>
+          <p>Esta pagina de produto foi desenhada para destacar imagens, beneficios e etapas de compra com uma experiencia leve, intuitiva e preparada para utilizadores que navegam principalmente no telemovel.</p>
+          <div class="project-actions">
+            <a class="btn-link btn-primary" href="index.html#contact">Falar sobre e-commerce</a>
+            <a class="btn-link btn-secondary" href="index.html#projects">Ver mais trabalhos</a>
+          </div>
+          <a class="back-link" href="index.html">Voltar para a home</a>
+        </div>
+
+        <div class="project-preview">
+          <div class="preview-window">
+            <div class="preview-bar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="preview-screen">
+              <div class="screen-block large"></div>
+              <div class="screen-block"></div>
+              <div class="screen-row">
+                <div class="screen-block"></div>
+                <div class="screen-block"></div>
+                <div class="screen-block"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-section project-overview">
+      <article class="info-card">
+        <h2>Contexto</h2>
+        <p>O foco deste projeto foi melhorar a experiencia de compra num catalogo pequeno, tornando a jornada mais clara desde a descoberta ate ao checkout. O layout prioriza o produto, a prova de confianca e os beneficios de entrega.</p>
+        <div class="metrics">
+          <div class="metric">
+            <strong>+19%</strong>
+            <span>mais add to cart</span>
+          </div>
+          <div class="metric">
+            <strong>4 etapas</strong>
+            <span>checkout simplificado</span>
+          </div>
+          <div class="metric">
+            <strong>Mobile</strong>
+            <span>primeiro no processo</span>
+          </div>
+        </div>
+      </article>
+
+      <aside class="info-card">
+        <h3>Ferramentas</h3>
+        <ul class="stack-list">
+          <li>HTML5</li>
+          <li>CSS Flexbox</li>
+          <li>JavaScript</li>
+          <li>UX Writing</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="project-section project-grid">
+      <article class="info-card">
+        <h3>Pontos fortes</h3>
+        <ul class="feature-list">
+          <li>Galeria de produto preparada para toque e scroll.</li>
+          <li>Botoes de compra destacados e persistentes.</li>
+          <li>Blocos de confianca, entrega e devolucoes bem visiveis.</li>
+        </ul>
+      </article>
+
+      <article class="info-card">
+        <h3>Estrutura</h3>
+        <p>A composicao usa secoes curtas, espacamento generoso e informacao segmentada para nao cansar o utilizador durante a navegacao.</p>
+      </article>
+
+      <article class="info-card">
+        <h3>Impacto</h3>
+        <p>O resultado final foi uma pagina mais orientada a conversao, com leitura facil e experiencia consistente em smartphone, tablet e desktop.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Carlos Peixoto</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
