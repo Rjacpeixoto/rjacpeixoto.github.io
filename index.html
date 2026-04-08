@@ -10,12 +10,16 @@
 
   <!-- ScrollReveal -->
   <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <header>
   <nav>
-    <h1>Carlos Peixoto (Em construção) </h1>
+    <h1>Carlos Peixoto</h1>
+    <span class="status">Em construção</span>
 
     <div class="nav-right">
       <ul>
@@ -24,7 +28,7 @@
         <li><a href="#contact">Contato</a></li>
       </ul>
 
-      <button id="themeToggle">🌙</button>
+      <button id="themeToggle" aria-label="Alternar tema">🌙</button>
     </div>
   </nav>
 </header>
@@ -44,9 +48,18 @@
   <h2>Projetos</h2>
 
   <div class="cards">
-    <div class="card neon">Projeto 1</div>
-    <div class="card neon">Projeto 2</div>
-    <div class="card neon">Projeto 3</div>
+    <a class="card neon project-card" href="projeto1.html">
+      <h3>Projeto 1</h3>
+      <p>Landing page moderna para startup com foco em conversao.</p>
+    </a>
+    <a class="card neon project-card" href="projeto2.html">
+      <h3>Projeto 2</h3>
+      <p>Dashboard responsivo para analise de metricas em tempo real.</p>
+    </a>
+    <a class="card neon project-card" href="projeto3.html">
+      <h3>Projeto 3</h3>
+      <p>E-commerce mobile first com vitrine, carrinho e checkout.</p>
+    </a>
   </div>
 </section>
 
