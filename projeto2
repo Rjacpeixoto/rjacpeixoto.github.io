@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto 2 | Carlos Peixoto</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="project-page">
+  <header>
+    <nav>
+      <h1>Carlos Peixoto</h1>
+      <span class="status">Dashboard UI</span>
+      <div class="nav-right">
+        <ul>
+          <li><a href="index.html#about">Sobre</a></li>
+          <li><a href="index.html#projects">Projetos</a></li>
+          <li><a href="index.html#contact">Contato</a></li>
+        </ul>
+        <button id="themeToggle" aria-label="Alternar tema">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="project-hero">
+      <div class="project-hero-content">
+        <div class="project-copy">
+          <span class="tag">Dashboard</span>
+          <h1>Painel analitico responsivo com foco em leitura de dados e tomadas rapidas de decisao.</h1>
+          <p>Este dashboard foi desenhado para equipas que precisam acompanhar metricas, comparar desempenho e visualizar informacao complexa de forma simples em desktop e mobile.</p>
+          <div class="project-actions">
+            <a class="btn-link btn-primary" href="index.html#contact">Quero um dashboard</a>
+            <a class="btn-link btn-secondary" href="index.html#projects">Explorar portfolio</a>
+          </div>
+          <a class="back-link" href="index.html">Voltar para a home</a>
+        </div>
+
+        <div class="project-preview">
+          <div class="preview-window">
+            <div class="preview-bar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="preview-screen">
+              <div class="screen-row">
+                <div class="screen-block"></div>
+                <div class="screen-block"></div>
+                <div class="screen-block"></div>
+              </div>
+              <div class="screen-block large"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-section project-overview">
+      <article class="info-card">
+        <h2>Resumo do trabalho</h2>
+        <p>O layout organiza indicadores principais, graficos e alertas em modulos claros. A prioridade foi reduzir ruido visual e facilitar a comparacao de resultados, mesmo em ecras menores.</p>
+        <div class="metrics">
+          <div class="metric">
+            <strong>+24%</strong>
+            <span>mais rapidez na leitura</span>
+          </div>
+          <div class="metric">
+            <strong>12</strong>
+            <span>widgets responsivos</span>
+          </div>
+          <div class="metric">
+            <strong>3</strong>
+            <span>breakpoints principais</span>
+          </div>
+        </div>
+      </article>
+
+      <aside class="info-card">
+        <h3>Tecnologias</h3>
+        <ul class="stack-list">
+          <li>HTML5</li>
+          <li>CSS Grid</li>
+          <li>JavaScript</li>
+          <li>Charts UI</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="project-section project-grid">
+      <article class="info-card">
+        <h3>Funcionalidades</h3>
+        <ul class="feature-list">
+          <li>Cartoes de metricas com hierarquia visual clara.</li>
+          <li>Tabelas e areas de grafico adaptadas para tablets.</li>
+          <li>Interface com contraste forte e leitura rapida.</li>
+        </ul>
+      </article>
+
+      <article class="info-card">
+        <h3>Problema resolvido</h3>
+        <p>Antes havia excesso de informacao e pouca prioridade visual. O novo dashboard separa o essencial e melhora a navegacao por contexto.</p>
+      </article>
+
+      <article class="info-card">
+        <h3>Entrega</h3>
+        <p>O resultado foi uma interface mais confiante, escalavel e preparada para integracao com APIs de analise em producao.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Carlos Peixoto</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
