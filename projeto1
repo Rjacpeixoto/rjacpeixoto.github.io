@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto 1 | Carlos Peixoto</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="project-page">
+  <header>
+    <nav>
+      <h1>Carlos Peixoto</h1>
+      <span class="status">Case study</span>
+      <div class="nav-right">
+        <ul>
+          <li><a href="index.html#about">Sobre</a></li>
+          <li><a href="index.html#projects">Projetos</a></li>
+          <li><a href="index.html#contact">Contato</a></li>
+        </ul>
+        <button id="themeToggle" aria-label="Alternar tema">🌙</button>
+      </div>
+    </nav>
+  </header>
 
+  <main>
+    <section class="project-hero">
+      <div class="project-hero-content">
+        <div class="project-copy">
+          <span class="tag">Landing Page</span>
+          <h1>Startup de tecnologia com foco em conversao e apresentacao visual forte.</h1>
+          <p>Este projeto foi pensado para apresentar um produto digital com mensagem clara, hero impactante, secoes estrategicas e um CTA bem destacado para aumentar o numero de contactos.</p>
+          <div class="project-actions">
+            <a class="btn-link btn-primary" href="index.html#contact">Pedir projeto semelhante</a>
+            <a class="btn-link btn-secondary" href="index.html#projects">Ver outros projetos</a>
+          </div>
+          <a class="back-link" href="index.html">Voltar para a home</a>
+        </div>
+
+        <div class="project-preview">
+          <div class="preview-window">
+            <div class="preview-bar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="preview-screen">
+              <div class="screen-block large"></div>
+              <div class="screen-row">
+                <div class="screen-block"></div>
+                <div class="screen-block"></div>
+                <div class="screen-block"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-section project-overview">
+      <article class="info-card">
+        <h2>Visao do projeto</h2>
+        <p>O objetivo foi criar uma landing page moderna, leve e direta, com boa hierarquia visual e percursos claros para o utilizador. A pagina destaca beneficios, prova social e uma proposta de valor forte logo acima da dobra.</p>
+        <div class="metrics">
+          <div class="metric">
+            <strong>+38%</strong>
+            <span>mais cliques no CTA</span>
+          </div>
+          <div class="metric">
+            <strong>2.1s</strong>
+            <span>tempo medio de carregamento</span>
+          </div>
+          <div class="metric">
+            <strong>100%</strong>
+            <span>adaptada para mobile</span>
+          </div>
+        </div>
+      </article>
+
+      <aside class="info-card">
+        <h3>Stack usada</h3>
+        <ul class="stack-list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>ScrollReveal</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="project-section project-grid">
+      <article class="info-card">
+        <h3>Destaques</h3>
+        <ul class="feature-list">
+          <li>Hero com mensagem principal e CTA em destaque.</li>
+          <li>Secoes com glassmorphism e identidade visual consistente.</li>
+          <li>Estrutura otimizada para navegacao rapida em telemovel.</li>
+        </ul>
+      </article>
+
+      <article class="info-card">
+        <h3>Desafio</h3>
+        <p>O maior desafio foi equilibrar impacto visual e performance, mantendo animacoes suaves e uma experiencia clara em ecras menores.</p>
+      </article>
+
+      <article class="info-card">
+        <h3>Resultado</h3>
+        <p>O projeto entregou uma pagina mais profissional e pronta para campanhas de marketing, com melhor leitura e foco nas conversoes.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Carlos Peixoto</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
